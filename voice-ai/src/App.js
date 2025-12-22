@@ -18,7 +18,7 @@ function App() {
   const activeAudioUrlRef = useRef(null);
 
   useEffect(() => {
-    // Revoke the *previous* URL if it exists and is different
+    // Revoke the previous URL if it exists and is different
     if (activeAudioUrlRef.current && activeAudioUrlRef.current !== audioURL) {
       URL.revokeObjectURL(activeAudioUrlRef.current);
     }
@@ -116,7 +116,6 @@ function App() {
       const aiReply = await askGemini(newHistory);
 
       //save conversation history
-      //save conversation history
       const updatedHistory = [
         ...newHistory,
         {
@@ -190,7 +189,7 @@ function App() {
           )}
         </div>
 
-        {/* Hidden Audio Player */}
+        // Hidden Audio Player
         {audioURL && (
           <audio
             ref={audioRef}
