@@ -7,7 +7,7 @@ export const personalities = {
       Relaxed vibe. Low-key funny.
       Never formal. No need for self names or self references.
     `,
-        voiceId: "yhc4ghFOWz3s9ImW4RC0"
+        voiceId: "pNInz6obpgDQGcFmaJgB" //a custom voice was used in the video demo
     },
 
     hype_friend: {
@@ -18,7 +18,7 @@ export const personalities = {
       Make the user feel like they're THAT guy.
       Never formal. No need for self names or self references.
     `,
-        voiceId: "yhc4ghFOWz3s9ImW4RC0"
+        voiceId: "Xb7hH8MSUJpSbSDYk0k2"
     },
 
     professional: {
@@ -29,6 +29,6 @@ export const personalities = {
       Corporate tone activated.
       Never formal. No need for self names or self references.
     `,
-        voiceId: "yhc4ghFOWz3s9ImW4RC0"
+        voiceId: "nPczCjzI2devNBz1zQrb"
     }
 };
